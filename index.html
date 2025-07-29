@@ -1,164 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OneStopWeb | Web Development Services</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      color: #333;
-    }
-    header {
-      background: #1e1e1e;
-      color: #fff;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    section {
-      padding: 40px 20px;
-    }
-    h1, h2 {
-      margin-bottom: 20px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 12px;
-      text-align: left;
-    }
-    th {
-      background-color: #007bff;
-      color: white;
-    }
-    .cta {
-      text-align: center;
-      margin-top: 30px;
-    }
-    .cta a {
-      display: inline-block;
-      background: #007bff;
-      color: white;
-      padding: 12px 24px;
-      text-decoration: none;
-      border-radius: 4px;
-      margin-top: 10px;
-    }
-    footer {
-      background: #1e1e1e;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Stop Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+        body {
+            background: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #1e1e2f;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+        }
+        .whatsapp-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            padding: 0.8rem 1.2rem;
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 1000;
+        }
+        section {
+            padding: 3rem 2rem;
+            max-width: 960px;
+            margin: auto;
+        }
+        h2 {
+            margin-bottom: 1rem;
+            color: #222;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        .card h3 {
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+        .card p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+        footer {
+            background: #1e1e2f;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        .footer-contact a {
+            color: #25D366;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 0.5rem;
+        }
+    </style>
 </head>
 <body>
 
+<a class="whatsapp-btn" href="https://wa.me/919100840143" target="_blank">Chat 💬</a>
+
 <header>
-  <h1>OneStopWeb</h1>
-  <p>Your One-Stop Solution for Affordable, Professional Websites</p>
+    <h1>One Stop Web</h1>
+    <p>Your One Stop for All Things Web</p>
 </header>
 
-<section class="about">
-  <h2>About Us</h2>
-  <p>We are a student-led micro-agency offering full-service website development using modern tools and AI assistance. From landing pages to full-stack apps, we build fast, responsive, and business-ready websites at affordable prices.</p>
+<section>
+    <h2>💼 Services</h2>
+    <div class="card-grid">
+        <div class="card"><h3>🔹 Basic Website</h3><p>3–5 page static website – ₹3,000–₹6,000</p></div>
+        <div class="card"><h3>🔹 Business Website</h3><p>Includes forms, SEO – ₹6,000–₹12,000</p></div>
+        <div class="card"><h3>🔹 E-commerce</h3><p>Cart, payment gateway – ₹15,000–₹30,000</p></div>
+        <div class="card"><h3>🔹 Portfolio Website</h3><p>With animations & contact – ₹4,000–₹8,000</p></div>
+        <div class="card"><h3>🔹 Web App (Full Stack)</h3><p>Login system, database – ₹20,000–₹50,000+</p></div>
+        <div class="card"><h3>🔹 Landing Page</h3><p>Ad-ready high-converting page – ₹2,000–₹5,000</p></div>
+        <div class="card"><h3>🔹 Bug Fix & Maintenance</h3><p>UI fixes, updates – ₹500–₹2,000</p></div>
+        <div class="card"><h3>🔹 Custom/API</h3><p>Custom quote – Contact us</p></div>
+    </div>
 </section>
 
-<section class="services">
-  <h2>Our Services</h2>
-  <table>
-    <tr>
-      <th>Service</th>
-      <th>Description</th>
-      <th>Starting Price (INR)</th>
-    </tr>
-    <tr>
-      <td>🔹 Basic Website</td>
-      <td>3-5 page static website (HTML, CSS, JS), responsive design</td>
-      <td>₹4,399 – ₹8,199</td>
-    </tr>
-    <tr>
-      <td>🔹 Business Website</td>
-      <td>Includes forms, basic SEO, mobile-friendly design</td>
-      <td>₹7,000 – ₹12,999</td>
-    </tr>
-    <tr>
-      <td>🔹 E-commerce Website</td>
-      <td>Product pages, cart, payment gateway (Stripe/Razorpay), admin panel (basic)</td>
-      <td>₹20,199 – ₹35,500</td>
-    </tr>
-    <tr>
-      <td>🔹 Portfolio Website</td>
-      <td>Personal portfolio with animations and contact form</td>
-      <td>₹4,000 – ₹8,000</td>
-    </tr>
-    <tr>
-      <td>🔹 Web App (Full Stack)</td>
-      <td>Dynamic app with database (login system, dashboards, etc.)</td>
-      <td>₹25,849 – ₹50,000+</td>
-    </tr>
-    <tr>
-      <td>🔹 Landing Page Design</td>
-      <td>High-converting landing page for ads or campaigns</td>
-      <td>₹2,000 – ₹5,000</td>
-    </tr>
-    <tr>
-      <td>🔹 Bug Fixing & Maintenance</td>
-      <td>Fixing UI bugs, updating content, backups</td>
-      <td>₹1000 – ₹2,500 per task</td>
-    </tr>
-    <tr>
-      <td>🔹 Custom Projects / API Setup</td>
-      <td>Contact for a custom quote</td>
-      <td>Varies</td>
-    </tr>
-  </table>
-</section>
-
-<section class="addons">
-  <h2>Add-on Services</h2>
-  <table>
-    <tr>
-      <th>Add-on</th>
-      <th>Price (INR)</th>
-    </tr>
-    <tr>
-      <td>Hosting & Domain Setup</td>
-      <td>₹1,000 – ₹3,000</td>
-    </tr>
-    <tr>
-      <td>SEO Optimization (Basic)</td>
-      <td>₹1,500 – ₹5,000</td>
-    </tr>
-    <tr>
-      <td>Content Writing (per page)</td>
-      <td>₹300 – ₹800</td>
-    </tr>
-    <tr>
-      <td>Logo & Branding Kit</td>
-      <td>₹2,000 – ₹6,000</td>
-    </tr>
-    <tr>
-      <td>Admin Dashboard Design</td>
-      <td>₹5,000 – ₹15,000</td>
-    </tr>
-  </table>
-</section>
-
-<section class="cta">
-  <h2>Let's Work Together</h2>
-  <p>Have a project in mind? Click below to chat with us directly on WhatsApp.</p>
-  <a href="https://wa.me/919100840143" target="_blank">Contact on WhatsApp</a>
+<section>
+    <h2>🧩 Add-ons</h2>
+    <div class="card-grid">
+        <div class="card"><h3>Hosting & Domain</h3><p>₹1,000 – ₹3,000</p></div>
+        <div class="card"><h3>SEO Optimization</h3><p>₹1,500 – ₹5,000</p></div>
+        <div class="card"><h3>Content Writing</h3><p>₹300 – ₹800 per page</p></div>
+        <div class="card"><h3>Logo & Branding Kit</h3><p>₹2,000 – ₹6,000</p></div>
+        <div class="card"><h3>Admin Dashboard</h3><p>₹5,000 – ₹15,000</p></div>
+    </div>
 </section>
 
 <footer>
-  <p>&copy; 2025 OneStopWeb. All rights reserved.</p>
+    <p>📧 Email: <a href="mailto:onestopweb.dev@gmail.com">onestopweb.dev@gmail.com</a></p>
+    <div class="footer-contact">
+        <a href="https://wa.me/919100840143" target="_blank">WhatsApp Us →</a>
+    </div>
 </footer>
 
 </body>
